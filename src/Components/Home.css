@@ -59,14 +59,9 @@ input {
   font-family: "Poppins", sans-serif;
 }
 
-input::placeholder {
-  text-align: left;
-}
-
 .email-form {
   padding: 14px 20px;
   width: 50%;
-  outline: none;
   font-size: 20px;
   color: #000000;
   border-radius: 5px;
@@ -79,6 +74,10 @@ input::placeholder {
 .form-mar {
   margin-left: 100px;
   margin-right: 20px;
+}
+
+.email-form:focus {
+  outline: 2px solid #fff;
 }
 
 @media screen and (max-width: 900px) {
