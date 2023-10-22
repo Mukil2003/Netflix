@@ -7,7 +7,8 @@ function Footer() {
   return (
     <div className="footer">
       <h3>
-        Questions? Call <a href="www.google.com">000-800-919-1694</a>
+        <span>Questions?</span> Call{" "}
+        <a href="www.google.com">000-800-919-1694</a>
       </h3>
 
       <div className="help">
@@ -37,7 +38,7 @@ function Footer() {
       </div>
       <div className="Copyright">
         <Select />
-        <h2>Netflix India &copy;</h2>
+        <h2>Netflix India &copy;2023</h2>
       </div>
     </div>
   );
